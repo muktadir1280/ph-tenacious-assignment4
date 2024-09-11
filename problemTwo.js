@@ -7,4 +7,4 @@ function sendNotification(email) {
     const domainName = check[1];
     return userName + ' sent you an email from ' + domainName;
 }
-console.log(sendNotification('sadia8icloud@gmail.com')); // remove this line
+console.log(sendNotification('nadim.naem5@outlook.com')); // remove this line

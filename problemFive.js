@@ -13,4 +13,4 @@ function waitingTime(waitingTimes, serialNumber) {
     let IsratWaitingTime = remainingPeople * avgTime;
     return IsratWaitingTime;
 }
-console.log(waitingTime([7, 8, 3, 4, 5], "9"));
+console.log(waitingTime([7, 8, 3, 4, 5], "9")); //remove this line
