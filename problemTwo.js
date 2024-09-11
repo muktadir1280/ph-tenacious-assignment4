@@ -5,6 +5,6 @@ function sendNotification(email) {
     const check = email.split('@');
     const userName = check[0];
     const domainName = check[1];
-    return `${userName} sent you an email from ${domainName}`;
+    return userName + ' sent you an email from ' + domainName;
 }
-console.log(sendNotification('sadia8icloud.com')); // remove this line
+console.log(sendNotification('sadia8icloud@gmail.com')); // remove this line
