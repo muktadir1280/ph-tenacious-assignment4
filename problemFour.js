@@ -8,11 +8,11 @@ function calculateFinalScore(obj) {
         finalScore = finalScore + 20;
 
     }
-    if (finalScore > 80) {
+    if (finalScore >= 80) {
         return true;
     }
-    if (finalScore < 80) {
+    if (finalScore <= 80) {
         return false;
     }
 }
-console.log(calculateFinalScore({ name: "Rajib", testScore: 15, schoolGrade: 25, isFFamily: true })); //remove this line
+console.log(calculateFinalScore({ name: "Rajib", testScore: 30, schoolGrade: 50, isFFamily: false })); //remove this line
